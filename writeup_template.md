@@ -78,12 +78,12 @@ My final model consisted of the following layers:
 |Layer 5 - Fully connected. |Input = 84. Output = 10. |
 
 Model Parameters
-*Epochs: 101
-*Batch size: 128
-*Learning rate: 0.001
-*Truncated normal mean: 0.0
-*Truncated normal standard deviation: 0.1
-*Loss optimization algorithm: Adam
+* Epochs: 101
+* Batch size: 128
+* Learning rate: 0.001
+* Truncated normal mean: 0.0
+* Truncated normal standard deviation: 0.1
+* Loss optimization algorithm: Adam
 
 These values were chosen based on recommendations given in the coursework. I ran the pipeline with different preprocessing steps and chose the preprocessing step which
 performed better. Since my focus for this project was to get a clear understanding of the various components described in the LeNet and have a correct implementation , I  chose the parameters mentioned in the coursework

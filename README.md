@@ -121,32 +121,11 @@ Here are the results of the prediction:
 | Bumpy Road      		| Bumpy Road   									|
 
 
-The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%.
+The model was able to correctly guess 5 of the 5 traffic signs
+
 The top classes predicted by the network is shown in the submission file
 
-For the second image, the model is  sure that this is a - Bumpy Road.
-
-| Probability         	|     Prediction	        					|
-|:---------------------:|:---------------------------------------------:|
-| 1.0         			|Bumpy Road   									|
-| .0     				| No passing 										|
-| .0					| Slippery road											|
-| .0	      			| Right-of-way at the next intersection					 				|
-| .0				    | No entry      							|
-
-
-For the second image, the model is  sure that this is a - Keep left sign.
-
-| Probability         	|     Prediction	        					|
-|:---------------------:|:---------------------------------------------:|
-| 1.0         			| Keep left   									|
-| .0     				| Turn right ahead 										|
-| .0					| Go straight or left											|
-| .0	      			| Road work					 				|
-| .0				    | Speed limit (20km/h)      							|
-
-
-For the third image, the model is sure that this is a - Roundabout mandatory sign.
+For the first image, the model is sure that this is a - Roundabout mandatory sign.
 
 | Probability         	|     Prediction	        					|
 |:---------------------:|:---------------------------------------------:|
@@ -156,7 +135,8 @@ For the third image, the model is sure that this is a - Roundabout mandatory sig
 | .0	      			| Speed limit (80km/h)					 				|
 | .0				    | Ahead only      							|
 
-For the fourth image, the model is  sure that this is a - Go straight or left sign.
+
+For the second image, the model is  sure that this is a - Go straight or left sign.
 
 | Probability         	|     Prediction	        					|
 |:---------------------:|:---------------------------------------------:|
@@ -167,7 +147,7 @@ For the fourth image, the model is  sure that this is a - Go straight or left si
 | .0				    | Roundabout mandatory      							|
 
 
-For the fifth image, the model is  sure that this is a - End of all speed and passing limits
+For the third image, the model is  sure that this is a - End of all speed and passing limits
 
 | Probability         	|     Prediction	        					|
 |:---------------------:|:---------------------------------------------:|
@@ -176,3 +156,24 @@ For the fifth image, the model is  sure that this is a - End of all speed and pa
 | .0					| End of speed limit (80km/h)											|
 | .0	      			| Speed limit (60km/h)					 				|
 | .0				    | Right-of-way at the next intersection      							|
+
+For the fourth image, the model is  sure that this is a - Bumpy Road.
+
+| Probability         	|     Prediction	        					|
+|:---------------------:|:---------------------------------------------:|
+| 1.0         			|Bumpy Road   									|
+| .0     				| No passing 										|
+| .0					| Slippery road											|
+| .0	      			| Right-of-way at the next intersection					 				|
+| .0				    | No entry      							|
+
+
+For the fifth image, the model is  sure that this is a - Keep left sign.
+
+| Probability         	|     Prediction	        					|
+|:---------------------:|:---------------------------------------------:|
+| 1.0         			| Keep left   									|
+| .0     				| Turn right ahead 										|
+| .0					| Go straight or left											|
+| .0	      			| Road work					 				|
+| .0				    | Speed limit (20km/h)      							|

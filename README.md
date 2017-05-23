@@ -110,18 +110,18 @@ Here are the results of the prediction:
 | Roundabout mandatory					| Roundabout mandatory											|
 | Go straight or left	      		| Go straight or left					 				|
 | End of all speed and passing limits			| Keep right      							|
-| Bumpy Road      		| No passing for vehicles over 3.5 metric tons sign   									|
+| Bumpy Road      		| Bumpy Road   									|
 
 
 The model was able to correctly guess 3 of the 5 traffic signs, which gives an accuracy of 80%.
 The top classes predicted by the network is shown in the Ipython notebook
 
-For the first image, the model is wrongly sure that this is a - No passing for vehicles over 3.5 metric tons sign (probability of 0.9).
+For the first image, the model is  sure that this is a - Bumpy Road
 
 | Probability         	|     Prediction	        					|
 |:---------------------:|:---------------------------------------------:|
-| .99         			|Vehicles over 3.5 metric tons prohibited   									|
-| .01     				| No passing 										|
+| 1.0         			|Bumpy Road   									|
+| .0     				| No passing 										|
 | .0					| Slippery road											|
 | .0	      			| Right-of-way at the next intersection					 				|
 | .0				    | No entry      							|
@@ -163,8 +163,8 @@ For the fifth image, the model is  sure that this is a - End of all speed and pa
 
 | Probability         	|     Prediction	        					|
 |:---------------------:|:---------------------------------------------:|
-| .6         			| End of all speed and passing limits   									|
-| .4     				| Priority road 										|
+| 1.0         			| End of all speed and passing limits   									|
+| .0     				| Priority road 										|
 | .0					| End of speed limit (80km/h)											|
 | .0	      			| Speed limit (60km/h)					 				|
 | .0				    | Right-of-way at the next intersection      							|

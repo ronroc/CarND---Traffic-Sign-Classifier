@@ -164,7 +164,7 @@ For the fifth image, the model is  sure that this is a - End of all speed and pa
 | Probability         	|     Prediction	        					|
 |:---------------------:|:---------------------------------------------:|
 | 1.0         			| End of all speed and passing limits   									|
-| .4     				| Priority road 										|
+| .0     				| Priority road 										|
 | .0					| End of speed limit (80km/h)											|
 | .0	      			| Speed limit (60km/h)					 				|
 | .0				    | Right-of-way at the next intersection      							|

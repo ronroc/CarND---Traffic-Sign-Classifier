@@ -102,6 +102,14 @@ Here are five German traffic signs that I found on the web:
 ![alt text][image8] ![alt text][image4]
 
 
+* The five images that I have pulled from the web are present in the original dataset but they are in a different form 
+
+* They differ with respect to background colour, and extra pixels in the background
+
+* The model pipeline should be able to identify all of the images since 1. The model has seen these images 2. Images are similar to the data i.e.( Not much background noise etc)
+
+* The above assumption is confirmed by the model predictions which is 100 %
+
 Here are the results of the prediction:
 
 | Image			        |     Prediction	        					|

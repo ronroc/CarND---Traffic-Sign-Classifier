@@ -78,12 +78,12 @@ My final model consisted of the following layers:
 |Layer 5 - Fully connected. |Input = 84. Output = 10. |
 
 Model Parameters
-Epochs: 101
-Batch size: 128
-Learning rate: 0.001
-Truncated normal mean: 0.0
-Truncated normal standard deviation: 0.1
-Loss optimization algorithm: Adam
+*Epochs: 101
+*Batch size: 128
+*Learning rate: 0.001
+*Truncated normal mean: 0.0
+*Truncated normal standard deviation: 0.1
+*Loss optimization algorithm: Adam
 
 These values were chosen based on recommendations given in the coursework. I ran the pipeline with different preprocessing steps and chose the preprocessing step which
 performed better. Since my focus for this project was to get a clear understanding of the various components described in the LeNet and have a correct implementation , I  chose the parameters mentioned in the coursework
@@ -91,8 +91,8 @@ performed better. Since my focus for this project was to get a clear understandi
 Performance numbers
 My final model results were:
 
-* validation set accuracy of
-* test set accuracy of
+* validation set accuracy of 0.937
+* test set accuracy of 0.929
 
 Test a Model on New Images
 
@@ -113,10 +113,10 @@ Here are the results of the prediction:
 | Bumpy Road      		| Bumpy Road   									|
 
 
-The model was able to correctly guess 3 of the 5 traffic signs, which gives an accuracy of 80%.
-The top classes predicted by the network is shown in the Ipython notebook
+The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%.
+The top classes predicted by the network is shown in the submission file
 
-For the first image, the model is  sure that this is a - Bumpy Road
+For the second image, the model is  sure that this is a - Bumpy Road.
 
 | Probability         	|     Prediction	        					|
 |:---------------------:|:---------------------------------------------:|
@@ -153,7 +153,7 @@ For the fourth image, the model is  sure that this is a - Go straight or left si
 | Probability         	|     Prediction	        					|
 |:---------------------:|:---------------------------------------------:|
 | 1.0         			| Go straight or left   									|
-| .0     				| Keep left 										|
+| .0      				| Keep left 										|
 | .0					| Ahead only											|
 | .0	      			| Speed limit (50km/h)					 				|
 | .0				    | Roundabout mandatory      							|

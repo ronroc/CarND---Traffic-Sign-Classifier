@@ -117,7 +117,7 @@ Here are the results of the prediction:
 | Keep left     			| Keep left 										|
 | Roundabout mandatory					| Roundabout mandatory											|
 | Go straight or left	      		| Go straight or left					 				|
-| End of all speed and passing limits			| Keep right      							|
+| End of all speed and passing limits			| End of all speed and passing limits      							|
 | Bumpy Road      		| Bumpy Road   									|
 
 
